@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- Offline fixture used to validate extractQuestion(). Not part of the real site. -->
+<html lang="en">
+<head><meta charset="utf-8"><title>Quiz Fixture</title></head>
+<body>
+  <h1>Introduction to HTML and CSS</h1>
+
+  <section id="case-1">
+    <h2>Quiz</h2>
+    <p>Which language is used to add behaviour to a web page in the browser?</p>
+    <form>
+      <div>
+        <input type="radio" id="r1" name="q1" value="a">
+        <label for="r1">HTML</label>
+      </div>
+      <div>
+        <input type="radio" id="r2" name="q1" value="b">
+        <label for="r2">CSS</label>
+      </div>
+      <div>
+        <input type="radio" id="r3" name="q1" value="c">
+        <label for="r3">JavaScript</label>
+      </div>
+      <div>
+        <input type="radio" id="r4" name="q1" value="d">
+        <label for="r4">XML</label>
+      </div>
+      <button type="submit">Check answer</button>
+    </form>
+  </section>
+
+  <section id="case-2">
+    <h2>Knowledge check</h2>
+    <p>Select all that apply: which of these are valid HTML elements?</p>
+    <form>
+      <label><input type="checkbox" name="q2" value="article"> &lt;article&gt;</label><br>
+      <label><input type="checkbox" name="q2" value="br"> &lt;br&gt;</label><br>
+      <label><input type="checkbox" name="q2" value="table2"> &lt;table2&gt;</label><br>
+      <label><input type="checkbox" name="q2" value="span"> &lt;span&gt;</label><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="case-3">
+    <h2>Button-based answers</h2>
+    <p>CSS stands for Cascading Style Sheets.</p>
+    <div role="group">
+      <button role="radio" aria-checked="false">True</button>
+      <button role="radio" aria-checked="false">False</button>
+      <button type="button">Next</button>
+    </div>
+  </section>
+
+  <section id="case-4">
+    <h2>Reading</h2>
+    <p>Just some reading content with no options at all.</p>
+  </section>
+</section>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "planUrl": "https://skills.yourlearning.ibm.com/activity/PLAN-8749C02A78EC",
+  "lastSyncedAt": "2026-09-29T04:05:38.093Z",
+  "courses": {
+    "Web Development Basics": {
+      "lastKnownStatus": "complete",
+      "lastKnownProgress": 100,
+      "lastSeenAt": "2026-09-29T04:05:38.093Z",
+      "lastKnownCourseUrl": null
+    },
+    "Developing Sites for the Web": {
+      "lastKnownStatus": "in-progress",
+      "lastKnownProgress": 92,
+      "lastSeenAt": "2026-09-29T04:05:38.093Z",
+      "lastKnownCourseUrl": "/course/x"
+    }
+  }
+}
